@@ -1,8 +1,8 @@
 
-const Form = () => {
+const UpdateForm = () => {
     return (
         <div>
-            <h1 className="text-2xl text-center font-bold">Simple Form</h1>
+            <h1 className="text-2xl text-center font-bold">Update Form</h1>
         <div className="w-2/3 mx-auto">
           <form className="card-body">
           <div className="form-control">
@@ -35,14 +35,7 @@ const Form = () => {
               </label>
               <input type="time" className="input input-bordered" required />
             </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">File</span>
-              </label>
-              <input type="file" placeholder="upload file" required />
-          
-              
-            </div>
+
             <div className="flex gap-4 my-2">
                 <label htmlFor="">Male</label>
                 <input type="radio" name="radio-7" className="radio radio-info" checked />
@@ -63,15 +56,10 @@ const Form = () => {
               </label>
               <input type="email" placeholder="email" className="input input-bordered" required />
             </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Password</span>
-              </label>
-              <input type="password" placeholder="password" className="input input-bordered" required />
-            </div>
+            
             
             <div className="form-control mt-6">
-            <button className="btn btn-secondary"> <input type="submit" value="Submit" /> </button>
+            <button className="btn btn-secondary"> <input type="submit" value="Update" /> </button>
             </div>
           </form>
         </div>
@@ -79,4 +67,4 @@ const Form = () => {
     );
 };
 
-export default Form;
+export default UpdateForm;
