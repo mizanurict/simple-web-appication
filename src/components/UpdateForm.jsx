@@ -7,54 +7,37 @@ const UpdateForm = () => {
           <form className="card-body">
           <div className="form-control">
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text">First Name</span>
               </label>
-              <input type="text" placeholder="name" className="input input-bordered" required />
+              <input type="text" name="firstName" defaultValue="Md. Mizanur" className="input input-bordered" required />
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text">Last Name</span>
               </label>
-              <input type="text" placeholder="name" className="input input-bordered" required />
+              <input type="text" name="lastName" defaultValue="Rahman" className="input input-bordered" required />
             </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Date</span>
-              </label>
-              <input type="date" className="input input-bordered" required />
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Month</span>
-              </label>
-              <input type="month" className="input input-bordered" required />
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Time</span>
-              </label>
-              <input type="time" className="input input-bordered" required />
-            </div>
+          
+           
 
             <div className="flex gap-4 my-2">
-                <label htmlFor="">Male</label>
-                <input type="radio" name="radio-7" className="radio radio-info" checked />
-                <label htmlFor="">Female</label>
-                <input type="radio" name="radio-7" className="radio radio-info" />
+                <label htmlFor="gender">Gender</label>
+                <input type="text" name="gender" defaultValue="Male" className="input input-bordered" />
+               
             </div>
             
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Text Area</span>
               </label>
-              <textarea className="textarea textarea-accent" placeholder="text"></textarea>
+              <textarea className="textarea textarea-accent" name="textArea" defaultValue="I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience."></textarea>
             </div>
 
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
               </label>
-              <input type="email" placeholder="email" className="input input-bordered" required />
+              <input type="email" name="email" defaultValue="mizanurictiu@gmail.com" className="input input-bordered" required />
             </div>
             
             

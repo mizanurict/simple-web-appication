@@ -7,15 +7,15 @@ const Form = () => {
           <form className="card-body">
           <div className="form-control">
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text">First Name</span>
               </label>
-              <input type="text" placeholder="name" className="input input-bordered" required />
+              <input type="text" placeholder="firstName" className="input input-bordered" required />
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text">Last Name</span>
               </label>
-              <input type="text" placeholder="name" className="input input-bordered" required />
+              <input type="text" placeholder="lastName" className="input input-bordered" required />
             </div>
             <div className="form-control">
               <label className="label">
