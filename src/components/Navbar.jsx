@@ -1,11 +1,18 @@
 /** @format */
 
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="my-8">
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">MIZAN</a>
+        </div>
+        <div className="flex gap-2 mx-2">
+          <NavLink to="/" className="btn btn-ghost">Home</NavLink>
+          <NavLink to="/form" className="btn btn-ghost">Form</NavLink>
+          <NavLink to="/update" className="btn btn-ghost">Update Form</NavLink>
         </div>
         <div className="flex-none gap-2">
           <div className="form-control">

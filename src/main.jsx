@@ -9,6 +9,7 @@ import {
 import Home from './components/Home';
 import Form from './components/Form';
 import Root from './components/Root/Root';
+import UpdateForm from './components/UpdateForm';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/form",
         element: <Form></Form>,
+      },
+      {
+        path: '/update',
+        element:<UpdateForm></UpdateForm>
       }
     ]
   },
