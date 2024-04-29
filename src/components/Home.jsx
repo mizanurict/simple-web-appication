@@ -1,13 +1,13 @@
 import Form from "./Form";
 import Navbar from "./Navbar";
-import Table from "./Table";
+import Profile from "./Profile";
 import UpdateForm from "./UpdateForm";
 
 const Home = () => {
     return (
         <div className="max-w-6xl mx-auto">
             <Navbar></Navbar>
-            <Table></Table>
+            <Profile></Profile>
             <Form></Form>
             <UpdateForm></UpdateForm>
         </div>
